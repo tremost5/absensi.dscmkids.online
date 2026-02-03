@@ -1,0 +1,51 @@
+# ----------------------------------------------------------------------
+# Disable directory browsing
+# ----------------------------------------------------------------------
+Options -Indexes
+
+# ----------------------------------------------------------------------
+# Rewrite Engine
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    RewriteEngine On
+
+    # ------------------------------------------------------------------
+    # Authorization Header (WAJIB untuk Auth / API)
+    # ------------------------------------------------------------------
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # ------------------------------------------------------------------
+    # Remove trailing slash (kecuali folder)
+    # ------------------------------------------------------------------
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # ------------------------------------------------------------------
+    # Front Controller (CI4)
+    # ------------------------------------------------------------------
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Fallback jika mod_rewrite mati
+# ----------------------------------------------------------------------
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 index.php
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Security
+# ----------------------------------------------------------------------
+ServerSignature Off
+
+# ----------------------------------------------------------------------
+# PHP 8.2 Handler (cPanel - LiteSpeed)
+# ----------------------------------------------------------------------
+<IfModule mime_module>
+    AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+</IfModule>

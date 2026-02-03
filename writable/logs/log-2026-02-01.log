@@ -1,0 +1,398 @@
+CRITICAL - 2026-02-01 01:26:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/guru/index.php"
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/guru/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/index', [], true)
+ 3 APPPATH/Controllers/AdminGuru.php(15): view('admin/guru/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 01:27:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/guru/index.php"
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/guru/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/index', [], true)
+ 3 APPPATH/Controllers/AdminGuru.php(15): view('admin/guru/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 01:27:24 --> Error: Call to a member function getResultArray() on bool
+[Method: GET, Route: dashboard/admin/statistik-absensi]
+in APPPATH/Controllers/AdminAbsensi.php on line 151.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->statistik()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 01:47:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/guru/index.php"
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/guru/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/index', [], true)
+ 3 APPPATH/Controllers/AdminGuru.php(15): view('admin/guru/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 01:48:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/guru/index.php"
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/guru/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/index', [], true)
+ 3 APPPATH/Controllers/AdminGuru.php(15): view('admin/guru/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 01:48:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guru/murid/index.php"
+[Method: GET, Route: guru/murid]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/murid/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/murid/index', [], true)
+ 3 APPPATH/Controllers/GuruMurid.php(11): view('guru/murid/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruMurid->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruMurid))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 01:54:34 --> Error: Call to a member function getResultArray() on bool
+[Method: GET, Route: dashboard/admin/statistik-absensi]
+in APPPATH/Controllers/AdminAbsensi.php on line 151.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->statistik()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 01:56:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/guru/index.php"
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/guru/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/index', [], true)
+ 3 APPPATH/Controllers/AdminGuru.php(15): view('admin/guru/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 01:56:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/guru/index.php"
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/guru/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/index', [], true)
+ 3 APPPATH/Controllers/AdminGuru.php(15): view('admin/guru/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 01:58:36 --> Error: Call to a member function getResultArray() on bool
+[Method: GET, Route: dashboard/admin/statistik-absensi]
+in APPPATH/Controllers/AdminAbsensi.php on line 151.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->statistik()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:02:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guru/murid/index.php"
+[Method: GET, Route: guru/murid]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/murid/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/murid/index', [], true)
+ 3 APPPATH/Controllers/GuruMurid.php(11): view('guru/murid/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruMurid->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruMurid))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:06:50 --> ErrorException: Undefined array key "kelas"
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Views/admin/rekap_absensi.php on line 66.
+ 1 APPPATH/Views/admin/rekap_absensi.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php', 66)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(45): view('admin/rekap_absensi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:09:03 --> ErrorException: Undefined array key "kelas"
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Views/admin/rekap_absensi.php on line 66.
+ 1 APPPATH/Views/admin/rekap_absensi.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php', 66)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(45): view('admin/rekap_absensi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:09:09 --> ErrorException: Undefined array key "kelas"
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Views/admin/rekap_absensi.php on line 66.
+ 1 APPPATH/Views/admin/rekap_absensi.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php', 66)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(45): view('admin/rekap_absensi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:09:11 --> ErrorException: Undefined array key "aktif"
+[Method: GET, Route: dashboard/admin/guru]
+in APPPATH/Views/admin/guru/index.php on line 42.
+ 1 APPPATH/Views/admin/guru/index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aktif"', '/home/dscx7887/public_html/absensi/app/Views/admin/guru/index.php', 42)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/guru/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/index', [], true)
+ 5 APPPATH/Controllers/AdminGuru.php(15): view('admin/guru/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:19:18 --> ErrorException: Undefined array key "aktif"
+[Method: GET, Route: dashboard/admin/guru]
+in APPPATH/Views/admin/guru/index.php on line 42.
+ 1 APPPATH/Views/admin/guru/index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aktif"', '/home/dscx7887/public_html/absensi/app/Views/admin/guru/index.php', 42)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/guru/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/index', [], true)
+ 5 APPPATH/Controllers/AdminGuru.php(15): view('admin/guru/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:22:10 --> ErrorException: Undefined array key "aktif"
+[Method: GET, Route: dashboard/admin/guru]
+in APPPATH/Views/admin/guru/index.php on line 42.
+ 1 APPPATH/Views/admin/guru/index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aktif"', '/home/dscx7887/public_html/absensi/app/Views/admin/guru/index.php', 42)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/guru/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/index', [], true)
+ 5 APPPATH/Controllers/AdminGuru.php(15): view('admin/guru/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:23:49 --> ErrorException: Undefined array key "kelas"
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Views/admin/rekap_absensi.php on line 66.
+ 1 APPPATH/Views/admin/rekap_absensi.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php', 66)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(45): view('admin/rekap_absensi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:24:31 --> ErrorException: Undefined array key "kelas"
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Views/admin/rekap_absensi.php on line 66.
+ 1 APPPATH/Views/admin/rekap_absensi.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php', 66)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(45): view('admin/rekap_absensi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:31:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/guru/create.php"
+[Method: GET, Route: dashboard/admin/guru/create]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/guru/create.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/create', [], true)
+ 3 APPPATH/Controllers/AdminGuru.php(20): view('admin/guru/create')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->create()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 02:42:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guru/murid/index.php"
+[Method: GET, Route: guru/murid]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/murid/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/murid/index', [], true)
+ 3 APPPATH/Controllers/GuruMurid.php(11): view('guru/murid/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruMurid->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruMurid))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 03:01:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/guru/create.php"
+[Method: GET, Route: dashboard/admin/guru/create]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/guru/create.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/guru/create', [], true)
+ 3 APPPATH/Controllers/AdminGuru.php(20): view('admin/guru/create')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->create()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 03:46:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guru/murid/index.php"
+[Method: GET, Route: guru/murid]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/murid/index.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/murid/index', [], true)
+ 3 APPPATH/Controllers/GuruMurid.php(11): view('guru/murid/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruMurid->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruMurid))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 04:12:30 --> ErrorException: Undefined variable $user
+[Method: POST, Route: login]
+in APPPATH/Controllers/Auth.php on line 28.
+ 1 APPPATH/Controllers/Auth.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', '/home/dscx7887/public_html/absensi/app/Controllers/Auth.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 04:14:01 --> ErrorException: Undefined variable $user
+[Method: POST, Route: login]
+in APPPATH/Controllers/Auth.php on line 28.
+ 1 APPPATH/Controllers/Auth.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', '/home/dscx7887/public_html/absensi/app/Controllers/Auth.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 23:11:29 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: dashboard/admin/guru/toggle/4]
+in SYSTEMPATH/BaseModel.php on line 993.
+ 1 SYSTEMPATH/BaseModel.php(993): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/AdminGuru.php(62): CodeIgniter\Model->update('4', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->toggle('4')
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 23:11:35 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: dashboard/admin/guru/toggle/3]
+in SYSTEMPATH/BaseModel.php on line 993.
+ 1 SYSTEMPATH/BaseModel.php(993): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/AdminGuru.php(62): CodeIgniter\Model->update('3', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminGuru->toggle('3')
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminGuru))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 23:48:58 --> Error: Class "App\Models\StatistikModel" not found
+[Method: GET, Route: dashboard/admin/statistik]
+in APPPATH/Controllers/Admin/Statistik.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Admin\Statistik->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 23:49:30 --> Error: Call to a member function getResultArray() on bool
+[Method: GET, Route: dashboard/admin/statistik]
+in APPPATH/Models/StatistikModel.php on line 37.
+ 1 APPPATH/Controllers/Admin/Statistik.php(23): App\Models\StatistikModel->absenPerBulan()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Statistik->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Statistik))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 23:50:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/admin.php"
+[Method: GET, Route: dashboard/admin/statistik]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/admin.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('layout/admin', [], true)
+ 3 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/statistik', [], true)
+ 4 APPPATH/Controllers/Admin/Statistik.php(26): view('admin/statistik', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Statistik->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Statistik))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 23:53:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/adminlte.php"
+[Method: GET, Route: dashboard/admin/statistik]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/adminlte.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('layout/adminlte', [], true)
+ 3 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/statistik', [], true)
+ 4 APPPATH/Controllers/Admin/Statistik.php(26): view('admin/statistik', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Statistik->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Statistik))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 23:53:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/adminlte.php"
+[Method: GET, Route: dashboard/admin/statistik]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/adminlte.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('layout/adminlte', [], true)
+ 3 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/statistik', [], true)
+ 4 APPPATH/Controllers/Admin/Statistik.php(26): view('admin/statistik', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Statistik->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Statistik))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-01 23:58:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/adminlte.php"
+[Method: GET, Route: dashboard/admin/statistik]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/adminlte.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('layout/adminlte', [], true)
+ 3 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/statistik', [], true)
+ 4 APPPATH/Controllers/Admin/Statistik.php(26): view('admin/statistik', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Statistik->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Statistik))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

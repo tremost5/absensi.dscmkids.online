@@ -1,0 +1,242 @@
+[31-Jan-2026 03:56:26 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.34. in /home/dscx7887/public_html/master/vendor/composer/platform_check.php on line 28
+[31-Jan-2026 02:46:39 UTC] PHP Fatal error:  Type of Config\Filters::$aliases must be array (as in class CodeIgniter\Config\Filters) in /home/dscx7887/public_html/absensi/app/Config/Filters.php on line 16
+[31-Jan-2026 09:59:52 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$allowedHostnames in /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php:246
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 246)
+#1 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(235): CodeIgniter\HTTP\SiteURIFactory->getValidHost('absensi.dscmkid...')
+#2 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURIFactory->getHost()
+#3 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(42): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(821): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::uri(NULL, false)
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 /home/dscx7887/public_html/absensi/system/Config/Services.php(814): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::uri()
+#9 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 /home/dscx7887/public_html/absensi/system/Config/Services.php(570): CodeIgniter\Config\BaseService::get('uri')
+#11 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#12 /home/dscx7887/public_html/absensi/system/Config/Services.php(528): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#13 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::request(NULL, false)
+#14 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#15 /home/dscx7887/public_html/absensi/system/Config/Services.php(524): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#16 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::request()
+#17 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#18 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('request')
+#19 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(128): service('request')
+#20 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#21 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php on line 246
+[31-Jan-2026 10:06:11 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$allowedHostnames in /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php:246
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 246)
+#1 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(235): CodeIgniter\HTTP\SiteURIFactory->getValidHost('absensi.dscmkid...')
+#2 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURIFactory->getHost()
+#3 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(42): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(821): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::uri(NULL, false)
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 /home/dscx7887/public_html/absensi/system/Config/Services.php(814): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::uri()
+#9 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 /home/dscx7887/public_html/absensi/system/Config/Services.php(570): CodeIgniter\Config\BaseService::get('uri')
+#11 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#12 /home/dscx7887/public_html/absensi/system/Config/Services.php(528): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#13 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::request(NULL, false)
+#14 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#15 /home/dscx7887/public_html/absensi/system/Config/Services.php(524): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#16 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::request()
+#17 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#18 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('request')
+#19 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(128): service('request')
+#20 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#21 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php on line 246
+[31-Jan-2026 10:06:56 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$allowedHostnames in /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php:246
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 246)
+#1 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(235): CodeIgniter\HTTP\SiteURIFactory->getValidHost('www.absensi.dsc...')
+#2 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURIFactory->getHost()
+#3 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(42): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('.git/config')
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(821): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::uri(NULL, false)
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 /home/dscx7887/public_html/absensi/system/Config/Services.php(814): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::uri()
+#9 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 /home/dscx7887/public_html/absensi/system/Config/Services.php(570): CodeIgniter\Config\BaseService::get('uri')
+#11 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#12 /home/dscx7887/public_html/absensi/system/Config/Services.php(528): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#13 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::request(NULL, false)
+#14 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#15 /home/dscx7887/public_html/absensi/system/Config/Services.php(524): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#16 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::request()
+#17 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#18 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('request')
+#19 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(128): service('request')
+#20 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#21 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php on line 246
+[31-Jan-2026 10:09:30 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$allowedHostnames in /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php:246
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 246)
+#1 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(235): CodeIgniter\HTTP\SiteURIFactory->getValidHost('absensi.dscmkid...')
+#2 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURIFactory->getHost()
+#3 /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php(42): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(821): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::uri(NULL, false)
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 /home/dscx7887/public_html/absensi/system/Config/Services.php(814): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::uri()
+#9 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 /home/dscx7887/public_html/absensi/system/Config/Services.php(570): CodeIgniter\Config\BaseService::get('uri')
+#11 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#12 /home/dscx7887/public_html/absensi/system/Config/Services.php(528): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#13 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::request(NULL, false)
+#14 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#15 /home/dscx7887/public_html/absensi/system/Config/Services.php(524): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#16 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::request()
+#17 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#18 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('request')
+#19 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(128): service('request')
+#20 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#21 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/SiteURIFactory.php on line 246
+[31-Jan-2026 10:15:05 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:23:03 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:23:32 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:27:47 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:32:13 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:32:13 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:32:17 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:32:23 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:32:28 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:32:34 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:33:24 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[31-Jan-2026 10:35:46 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php on line 71
+[02-Feb-2026 01:39:57 Asia/Jakarta] PHP Fatal error:  Constant expression contains invalid operations in /home/dscx7887/public_html/absensi/app/Config/App.php on line 67
+[02-Feb-2026 01:40:03 Asia/Jakarta] PHP Fatal error:  Constant expression contains invalid operations in /home/dscx7887/public_html/absensi/app/Config/App.php on line 67
+[02-Feb-2026 01:40:07 Asia/Jakarta] PHP Fatal error:  Constant expression contains invalid operations in /home/dscx7887/public_html/absensi/app/Config/App.php on line 67
+[02-Feb-2026 01:42:46 Asia/Jakarta] PHP Fatal error:  Constant expression contains invalid operations in /home/dscx7887/public_html/absensi/app/Config/App.php on line 67
+[02-Feb-2026 01:45:23 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Config\App::$CSPEnabled in /home/dscx7887/public_html/absensi/app/Config/App.php on line 69
+[02-Feb-2026 04:11:47 Asia/Jakarta] PHP Fatal error:  Trait "App\Controllers\App\Models\UserModel" not found in /home/dscx7887/public_html/absensi/app/Controllers/Dashboard.php on line 7
+[02-Feb-2026 04:12:55 Asia/Jakarta] PHP Fatal error:  Trait "App\Controllers\App\Models\UserModel" not found in /home/dscx7887/public_html/absensi/app/Controllers/Dashboard.php on line 7
+[02-Feb-2026 04:13:14 Asia/Jakarta] PHP Fatal error:  Trait "App\Controllers\App\Models\UserModel" not found in /home/dscx7887/public_html/absensi/app/Controllers/Dashboard.php on line 7

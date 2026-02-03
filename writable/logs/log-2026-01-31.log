@@ -1,0 +1,1154 @@
+CRITICAL - 2026-01-31 00:48:57 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: GET, Route: /]
+in APPPATH/Config/Filters.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Config/Filters.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists('Config\\Filters')
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH/Config/Services.php(295): config('Config\\Filters')
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 01:22:00 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: GET, Route: /]
+in APPPATH/Config/Filters.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Config/Filters.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists('Config\\Filters')
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH/Config/Services.php(295): config('Config\\Filters')
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 01:33:31 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: GET, Route: /]
+in APPPATH/Config/Filters.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Config/Filters.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists('Config\\Filters')
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH/Config/Services.php(295): config('Config\\Filters')
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 01:33:32 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: GET, Route: /]
+in APPPATH/Config/Filters.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Config/Filters.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists('Config\\Filters')
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH/Config/Services.php(295): config('Config\\Filters')
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 01:33:33 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: GET, Route: /]
+in APPPATH/Config/Filters.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Config/Filters.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists('Config\\Filters')
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH/Config/Services.php(295): config('Config\\Filters')
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 01:33:34 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: GET, Route: /]
+in APPPATH/Config/Filters.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Config/Filters.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists('Config\\Filters')
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH/Config/Services.php(295): config('Config\\Filters')
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 01:54:53 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: HEAD, Route: /]
+in APPPATH/Config/Filters.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Config/Filters.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists('Config\\Filters')
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH/Config/Services.php(295): config('Config\\Filters')
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 02:41:05 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: GET, Route: /]
+in APPPATH/Config/Filters.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Config/Filters.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists('Config\\Filters')
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH/Config/Services.php(295): config('Config\\Filters')
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 02:46:39 --> ErrorException: Type of Config\Filters::$aliases must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: /]
+in APPPATH/Config/Filters.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:15:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH/Controllers/Auth.php(11): view('auth/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:15:05 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\View\Exceptions\ViewException
+Invalid file: "auth/login.php"
+#0 /home/dscx7887/public_html/absensi/system/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 /home/dscx7887/public_html/absensi/system/Common.php(1199): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 /home/dscx7887/public_html/absensi/app/Controllers/Auth.php(11): view('auth/login')
+#3 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(933): App\Controllers\Auth->login()
+#4 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#7 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: login]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:23:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH/Controllers/Auth.php(11): view('auth/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:23:03 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\View\Exceptions\ViewException
+Invalid file: "auth/login.php"
+#0 /home/dscx7887/public_html/absensi/system/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 /home/dscx7887/public_html/absensi/system/Common.php(1199): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 /home/dscx7887/public_html/absensi/app/Controllers/Auth.php(11): view('auth/login')
+#3 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(933): App\Controllers\Auth->login()
+#4 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#7 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: login]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:23:32 --> ErrorException: Undefined property: Config\App::$proxyIPs
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 SYSTEMPATH/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$proxyIPs', '/home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php', 71)
+ 2 SYSTEMPATH/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+ 9 SYSTEMPATH/Common.php(1000): service('session')
+10 APPPATH/Filters/AuthFilter.php(14): session()
+11 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+12 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+13 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard/admin/guru', 'before')
+14 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:23:32 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$proxyIPs
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/system/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#3 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#7 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+#8 /home/dscx7887/public_html/absensi/system/Common.php(1000): service('session')
+#9 /home/dscx7887/public_html/absensi/app/Filters/AuthFilter.php(14): session()
+#10 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#11 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#12 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard/admin...', 'before')
+#13 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#15 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#16 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#17 {main}
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:27:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH/Controllers/Auth.php(11): view('auth/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:27:47 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\View\Exceptions\ViewException
+Invalid file: "auth/login.php"
+#0 /home/dscx7887/public_html/absensi/system/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 /home/dscx7887/public_html/absensi/system/Common.php(1199): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 /home/dscx7887/public_html/absensi/app/Controllers/Auth.php(11): view('auth/login')
+#3 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(933): App\Controllers\Auth->login()
+#4 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#7 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: login]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:32:12 --> ErrorException: Undefined property: Config\App::$proxyIPs
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 SYSTEMPATH/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$proxyIPs', '/home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php', 71)
+ 2 SYSTEMPATH/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+ 9 SYSTEMPATH/Common.php(1000): service('session')
+10 APPPATH/Filters/AuthFilter.php(14): session()
+11 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+12 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+13 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard/admin/guru', 'before')
+14 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:32:13 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$proxyIPs
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/system/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#3 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#7 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+#8 /home/dscx7887/public_html/absensi/system/Common.php(1000): service('session')
+#9 /home/dscx7887/public_html/absensi/app/Filters/AuthFilter.php(14): session()
+#10 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#11 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#12 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard/admin...', 'before')
+#13 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#15 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#16 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#17 {main}
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:32:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH/Controllers/Auth.php(11): view('auth/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:32:13 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\View\Exceptions\ViewException
+Invalid file: "auth/login.php"
+#0 /home/dscx7887/public_html/absensi/system/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 /home/dscx7887/public_html/absensi/system/Common.php(1199): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 /home/dscx7887/public_html/absensi/app/Controllers/Auth.php(11): view('auth/login')
+#3 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(933): App\Controllers\Auth->login()
+#4 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#7 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: login]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:32:17 --> ErrorException: Undefined property: Config\App::$proxyIPs
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 SYSTEMPATH/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$proxyIPs', '/home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php', 71)
+ 2 SYSTEMPATH/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+ 9 SYSTEMPATH/Common.php(1000): service('session')
+10 APPPATH/Filters/AuthFilter.php(14): session()
+11 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+12 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+13 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard/admin/guru', 'before')
+14 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:32:17 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$proxyIPs
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/system/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#3 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#7 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+#8 /home/dscx7887/public_html/absensi/system/Common.php(1000): service('session')
+#9 /home/dscx7887/public_html/absensi/app/Filters/AuthFilter.php(14): session()
+#10 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#11 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#12 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard/admin...', 'before')
+#13 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#15 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#16 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#17 {main}
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:32:23 --> ErrorException: Undefined property: Config\App::$proxyIPs
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 SYSTEMPATH/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$proxyIPs', '/home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php', 71)
+ 2 SYSTEMPATH/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+ 9 SYSTEMPATH/Common.php(1000): service('session')
+10 APPPATH/Filters/AuthFilter.php(14): session()
+11 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+12 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+13 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard/admin/guru', 'before')
+14 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:32:23 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$proxyIPs
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/system/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#3 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#7 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+#8 /home/dscx7887/public_html/absensi/system/Common.php(1000): service('session')
+#9 /home/dscx7887/public_html/absensi/app/Filters/AuthFilter.php(14): session()
+#10 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#11 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#12 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard/admin...', 'before')
+#13 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#15 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#16 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#17 {main}
+[Method: GET, Route: dashboard/admin/guru]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:32:28 --> ErrorException: Undefined property: Config\App::$proxyIPs
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 SYSTEMPATH/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$proxyIPs', '/home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php', 71)
+ 2 SYSTEMPATH/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+ 9 SYSTEMPATH/Common.php(1000): service('session')
+10 APPPATH/Filters/AuthFilter.php(14): session()
+11 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+12 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+13 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+14 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:32:28 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$proxyIPs
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/system/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#3 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#7 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+#8 /home/dscx7887/public_html/absensi/system/Common.php(1000): service('session')
+#9 /home/dscx7887/public_html/absensi/app/Filters/AuthFilter.php(14): session()
+#10 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#11 /home/dscx7887/public_html/absensi/system/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#12 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#13 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#15 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#16 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#17 {main}
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:32:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH/Controllers/Auth.php(11): view('auth/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:32:34 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\View\Exceptions\ViewException
+Invalid file: "auth/login.php"
+#0 /home/dscx7887/public_html/absensi/system/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 /home/dscx7887/public_html/absensi/system/Common.php(1199): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 /home/dscx7887/public_html/absensi/app/Controllers/Auth.php(11): view('auth/login')
+#3 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(933): App\Controllers\Auth->login()
+#4 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#7 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: login]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:33:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH/Controllers/Auth.php(11): view('auth/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:33:24 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#7 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\View\Exceptions\ViewException
+Invalid file: "auth/login.php"
+#0 /home/dscx7887/public_html/absensi/system/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 /home/dscx7887/public_html/absensi/system/Common.php(1199): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 /home/dscx7887/public_html/absensi/app/Controllers/Auth.php(11): view('auth/login')
+#3 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(933): App\Controllers\Auth->login()
+#4 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#7 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: login]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 10:35:46 --> ErrorException: Undefined property: Config\App::$proxyIPs
+[Method: GET, Route: login]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 SYSTEMPATH/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$proxyIPs', '/home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php', 71)
+ 2 SYSTEMPATH/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+ 9 SYSTEMPATH/Common.php(1000): service('session')
+10 APPPATH/Views/auth/login.php(13): session()
+11 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/auth/login.php')
+12 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('auth/login', [], true)
+14 APPPATH/Controllers/Auth.php(11): view('auth/login')
+15 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->login()
+16 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+17 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 10:35:46 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$proxyIPs in /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php:71
+Stack trace:
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/app/Views/errors/html/error_exception.php(241): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(270): include('/home/dscx7887/...')
+#3 /home/dscx7887/public_html/absensi/system/Debug/BaseExceptionHandler.php(273): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#4 /home/dscx7887/public_html/absensi/system/Debug/ExceptionHandler.php(126): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/home/dscx7887/...')
+#5 /home/dscx7887/public_html/absensi/system/Debug/Exceptions.php(162): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$proxyIPs
+#0 /home/dscx7887/public_html/absensi/system/HTTP/RequestTrait.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/dscx7887/...', 71)
+#1 /home/dscx7887/public_html/absensi/system/Config/Services.php(702): CodeIgniter\HTTP\Request->getIPAddress()
+#2 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#3 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#4 /home/dscx7887/public_html/absensi/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#5 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#6 /home/dscx7887/public_html/absensi/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#7 /home/dscx7887/public_html/absensi/system/Common.php(1027): CodeIgniter\Config\BaseService::get('session')
+#8 /home/dscx7887/public_html/absensi/system/Common.php(1000): service('session')
+#9 /home/dscx7887/public_html/absensi/app/Views/auth/login.php(13): session()
+#10 /home/dscx7887/public_html/absensi/system/View/View.php(226): include('/home/dscx7887/...')
+#11 /home/dscx7887/public_html/absensi/system/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#12 /home/dscx7887/public_html/absensi/system/Common.php(1199): CodeIgniter\View\View->render('auth/login', Array, true)
+#13 /home/dscx7887/public_html/absensi/app/Controllers/Auth.php(11): view('auth/login')
+#14 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(933): App\Controllers\Auth->login()
+#15 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#16 /home/dscx7887/public_html/absensi/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /home/dscx7887/public_html/absensi/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#18 /home/dscx7887/public_html/absensi/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#19 /home/dscx7887/public_html/absensi/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#20 {main}
+[Method: GET, Route: login]
+in SYSTEMPATH/HTTP/RequestTrait.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-31 11:30:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/adminlte.php"
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/adminlte.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('layouts/adminlte', [], true)
+ 3 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('dashboard/admin', [], true)
+ 4 APPPATH/Controllers/Dashboard.php(24): view('dashboard/admin', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->admin()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 12:05:51 --> Error: Call to undefined function App\Controllers\back()
+[Method: POST, Route: login]
+in APPPATH/Controllers/Auth.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 12:16:05 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: dashboard/guru]
+in SYSTEMPATH/BaseModel.php on line 993.
+ 1 SYSTEMPATH/BaseModel.php(993): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Filters/AuthFilter.php(26): CodeIgniter\Model->update('3', [...])
+ 4 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 6 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard/guru', 'before')
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 12:16:21 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/BaseModel.php on line 993.
+ 1 SYSTEMPATH/BaseModel.php(993): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Filters/AuthFilter.php(26): CodeIgniter\Model->update('3', [...])
+ 4 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 6 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 13:06:31 --> ErrorException: Undefined array key "nama"
+[Method: POST, Route: guru/absensi/tampilkan]
+in APPPATH/Views/guru/absensi_step2.php on line 31.
+ 1 APPPATH/Views/guru/absensi_step2.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', '/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php', 31)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/absensi_step2', [], true)
+ 5 APPPATH/Controllers/Absensi.php(44): view('guru/absensi_step2', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->step2()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 13:09:31 --> ErrorException: Undefined array key "kelas"
+[Method: POST, Route: guru/absensi/tampilkan]
+in APPPATH/Views/guru/absensi_step2.php on line 35.
+ 1 APPPATH/Views/guru/absensi_step2.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', '/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php', 35)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/absensi_step2', [], true)
+ 5 APPPATH/Controllers/Absensi.php(44): view('guru/absensi_step2', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->step2()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 13:45:00 --> ErrorException: Undefined variable $kelas
+[Method: GET, Route: guru/absensi]
+in APPPATH/Views/guru/absensi_step1.php on line 25.
+ 1 APPPATH/Views/guru/absensi_step1.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', '/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step1.php', 25)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step1.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/absensi_step1', [], true)
+ 5 APPPATH/Controllers/Absensi.php(13): view('guru/absensi_step1')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->step1()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 13:45:18 --> ErrorException: Undefined variable $kelas
+[Method: GET, Route: guru/absensi]
+in APPPATH/Views/guru/absensi_step1.php on line 25.
+ 1 APPPATH/Views/guru/absensi_step1.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', '/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step1.php', 25)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step1.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/absensi_step1', [], true)
+ 5 APPPATH/Controllers/Absensi.php(13): view('guru/absensi_step1')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->step1()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 13:48:41 --> Error: Call to a member function getFirstRow() on bool
+[Method: POST, Route: guru/absensi/simpan]
+in SYSTEMPATH/Model.php on line 330.
+ 1 SYSTEMPATH/BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 2 APPPATH/Controllers/Absensi.php(78): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 14:01:05 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: POST, Route: guru/absensi/tampilkan]
+in APPPATH/Views/guru/absensi_step2.php on line 23.
+ 1 APPPATH/Views/guru/absensi_step2.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', '/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php', 23)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/absensi_step2', [], true)
+ 5 APPPATH/Controllers/Absensi.php(28): view('guru/absensi_step2', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->step2()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 14:02:45 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: POST, Route: guru/absensi/tampilkan]
+in APPPATH/Views/guru/absensi_step2.php on line 23.
+ 1 APPPATH/Views/guru/absensi_step2.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', '/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php', 23)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/absensi_step2', [], true)
+ 5 APPPATH/Controllers/Absensi.php(28): view('guru/absensi_step2', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->step2()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 14:07:34 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: POST, Route: guru/absensi/tampilkan]
+in APPPATH/Views/guru/absensi_step2.php on line 23.
+ 1 APPPATH/Views/guru/absensi_step2.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', '/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php', 23)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/guru/absensi_step2.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('guru/absensi_step2', [], true)
+ 5 APPPATH/Controllers/Absensi.php(39): view('guru/absensi_step2', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->step2()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 14:09:32 --> Error: Call to a member function getFirstRow() on bool
+[Method: POST, Route: guru/absensi/simpan]
+in SYSTEMPATH/Model.php on line 330.
+ 1 SYSTEMPATH/BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 2 APPPATH/Controllers/Absensi.php(101): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 14:11:55 --> Error: Call to a member function getFirstRow() on bool
+[Method: POST, Route: guru/absensi/simpan]
+in SYSTEMPATH/Model.php on line 330.
+ 1 SYSTEMPATH/BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 2 APPPATH/Controllers/Absensi.php(101): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 14:16:05 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: guru/absensi/simpan]
+in SYSTEMPATH/Model.php on line 287.
+ 1 SYSTEMPATH/BaseModel.php(677): CodeIgniter\Model->doFindAll(1, 0)
+ 2 APPPATH/Controllers/Absensi.php(103): CodeIgniter\BaseModel->findAll(1)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 15:15:16 --> ErrorException: Undefined variable $lokasi
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 110.
+ 1 APPPATH/Controllers/Absensi.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', '/home/dscx7887/public_html/absensi/app/Controllers/Absensi.php', 110)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 15:18:06 --> ErrorException: Undefined variable $lokasi
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 110.
+ 1 APPPATH/Controllers/Absensi.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', '/home/dscx7887/public_html/absensi/app/Controllers/Absensi.php', 110)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 15:26:10 --> ErrorException: Undefined variable $lokasi
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 110.
+ 1 APPPATH/Controllers/Absensi.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', '/home/dscx7887/public_html/absensi/app/Controllers/Absensi.php', 110)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 15:26:57 --> ErrorException: Undefined variable $lokasi
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 110.
+ 1 APPPATH/Controllers/Absensi.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', '/home/dscx7887/public_html/absensi/app/Controllers/Absensi.php', 110)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 16:14:08 --> ErrorException: Undefined variable $muridIds
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 127.
+ 1 APPPATH/Controllers/Absensi.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $muridIds', '/home/dscx7887/public_html/absensi/app/Controllers/Absensi.php', 127)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 17:11:50 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Views/admin/rekap_absensi.php on line 18.
+ 1 APPPATH/Views/admin/rekap_absensi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php', 18)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(22): view('admin/rekap_absensi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 17:15:59 --> ErrorException: Undefined variable $tanggal
+[Method: GET, Route: dashboard/admin/rekap-absensi/export-pdf]
+in APPPATH/Views/admin/rekap_absensi_pdf.php on line 38.
+ 1 APPPATH/Views/admin/rekap_absensi_pdf.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi_pdf.php', 38)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi_pdf.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi_pdf', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(40): view('admin/rekap_absensi_pdf', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->exportPdf()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 18:30:47 --> ErrorException: Undefined array key "lokasi_id"
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Views/admin/rekap_absensi.php on line 86.
+ 1 APPPATH/Views/admin/rekap_absensi.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_id"', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php', 86)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(43): view('admin/rekap_absensi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 19:42:46 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 19:45:06 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 19:50:01 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Controllers/AdminAbsensi.php on line 127.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Controllers/AdminAbsensi.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminAbsensi')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminAbsensi')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\AdminAbsensi', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 19:51:41 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Controllers/AdminAbsensi.php on line 127.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Controllers/AdminAbsensi.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminAbsensi')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminAbsensi')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\AdminAbsensi', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 20:04:34 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 20:10:32 --> ParseError: Unclosed '{' on line 8
+[Method: GET, Route: dashboard/admin/statistik-absensi]
+in APPPATH/Controllers/AdminAbsensi.php on line 204.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/dscx7887/public_html/absensi/app/Controllers/AdminAbsensi.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminAbsensi')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminAbsensi')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\AdminAbsensi', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 20:20:05 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 20:24:04 --> ErrorException: Undefined variable $m
+[Method: POST, Route: guru/absensi/simpan]
+in APPPATH/Controllers/Absensi.php on line 70.
+ 1 APPPATH/Controllers/Absensi.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $m', '/home/dscx7887/public_html/absensi/app/Controllers/Absensi.php', 70)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Absensi->simpan()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 20:51:27 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Views/admin/rekap_absensi.php on line 28.
+ 1 APPPATH/Views/admin/rekap_absensi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php', 28)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(42): view('admin/rekap_absensi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 20:54:04 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: dashboard/admin/rekap-absensi]
+in APPPATH/Views/admin/rekap_absensi.php on line 28.
+ 1 APPPATH/Views/admin/rekap_absensi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', '/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php', 28)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/dscx7887/public_html/absensi/app/Views/admin/rekap_absensi.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('admin/rekap_absensi', [], true)
+ 5 APPPATH/Controllers/AdminAbsensi.php(42): view('admin/rekap_absensi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminAbsensi->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminAbsensi))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 22:23:27 --> ErrorException: Undefined variable $db
+[Method: GET, Route: dashboard/admin]
+in APPPATH/Controllers/Dashboard.php on line 31.
+ 1 APPPATH/Controllers/Dashboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', '/home/dscx7887/public_html/absensi/app/Controllers/Dashboard.php', 31)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->admin()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 22:31:04 --> Error: Call to a member function getResultArray() on bool
+[Method: GET, Route: dashboard/admin]
+in APPPATH/Controllers/Dashboard.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->admin()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-31 22:34:22 --> Error: Call to a member function getResultArray() on bool
+[Method: GET, Route: dashboard/admin]
+in APPPATH/Controllers/Dashboard.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->admin()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
