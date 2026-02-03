@@ -1,11 +1,13 @@
-name: CI + MySQL + FTP Deploy
+name: CI - Test MySQL
 
 on:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
-  build-and-deploy:
+  test-mysql:
     runs-on: ubuntu-latest
 
     services:
@@ -23,42 +25,26 @@ jobs:
           --health-retries=10
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: "8.1"
-          extensions: mbstring, intl, pdo, pdo_mysql
+          extensions: pdo_mysql
           coverage: none
 
       - name: Wait for MySQL
         run: |
           for i in {1..30}; do
-            if mysqladmin ping -h 127.0.0.1 -uroot -proot --silent; then
-              echo "MySQL is ready"
-              break
-            fi
+            mysqladmin ping -h 127.0.0.1 -uroot -proot --silent && break
             sleep 2
           done
 
-      - name: Import absensi database
+      - name: Import database
         run: |
           mysql -h 127.0.0.1 -uci_user -pci_pass ci_db < database/dscx7887_absensi_sekolah_minggu.sql
 
       - name: Verify tables
         run: |
           mysql -h 127.0.0.1 -uci_user -pci_pass ci_db -e "SHOW TABLES;"
-
-      # 🚀 DEPLOY (PUBLIC ONLY)
-      - name: FTP Deploy (public only)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: public/
-          server-dir: ${{ secrets.FTP_PATH }}
-          exclude: |
-            **/.git*

@@ -1,0 +1,28 @@
+name: Deploy to Hosting (FTP)
+
+on:
+  workflow_run:
+    workflows: ["CI - Test MySQL"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: FTP Deploy (public only, safe)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: public/
+          server-dir: ${{ secrets.FTP_PATH }}
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.github/**
