@@ -1,13 +1,11 @@
-name: PHP CI with MySQL
+name: CI + MySQL + FTP Deploy
 
 on:
   push:
     branches: ["main"]
-  pull_request:
-    branches: ["main"]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     services:
@@ -18,8 +16,6 @@ jobs:
           MYSQL_DATABASE: ci_db
           MYSQL_USER: ci_user
           MYSQL_PASSWORD: ci_pass
-        ports:
-          - 3306:3306
         options: >-
           --health-cmd="mysqladmin ping -h 127.0.0.1 -uroot -proot"
           --health-interval=10s
@@ -44,7 +40,6 @@ jobs:
               echo "MySQL is ready"
               break
             fi
-            echo "Waiting for MySQL..."
             sleep 2
           done
 
@@ -55,3 +50,15 @@ jobs:
       - name: Verify tables
         run: |
           mysql -h 127.0.0.1 -uci_user -pci_pass ci_db -e "SHOW TABLES;"
+
+      # 🚀 DEPLOY (PUBLIC ONLY)
+      - name: FTP Deploy (public only)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: public/
+          server-dir: ${{ secrets.FTP_PATH }}
+          exclude: |
+            **/.git*
